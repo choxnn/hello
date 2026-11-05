@@ -12,3 +12,8 @@ Allow: /
 
 User-agent: *
 Allow: /
+Allow: /hello
+
+# Main website: https://nutchanon.net/
+Host: nutchanon.net
+Sitemap: https://nutchanon.net/sitemap.xml

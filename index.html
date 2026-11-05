@@ -1,33 +1,76 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutchanon Kongkaew — Fullstack Developer Portfolio</title>
-    <meta name="description" content="พอร์ตโฟลิโอของ Nutchanon Kongkaew — Fullstack Developer ผู้เชี่ยวชาญ React, Next.js และเทคโนโลยีเว็บสมัยใหม่ สร้างผลิตภัณฑ์ที่ใส่ใจทั้งโค้ดและดีไซน์">
-    <meta name="keywords" content="Nutchanon Kongkaew, Fullstack Developer, Portfolio, React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Web Developer, Thailand">
+    <title>Hello, I’m Cho — Full Stack Developer | Nutchanon Kongkaew</title>
+    <meta name="description" content="Hello, I’m Cho — Nutchanon Kongkaew, a Full Stack Developer. A greeting page from nutchanon.net.">
+    <meta name="keywords" content="Cho, Nutchanon Kongkaew, Full Stack Developer, Fullstack Developer, Portfolio, React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Web Developer, Thailand">
     <meta name="author" content="Nutchanon Kongkaew">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://nutchanon.net/">
+    <link rel="canonical" href="https://nutchanon.net/hello">
+    <link rel="author" href="https://nutchanon.net/">
+    <link rel="home" href="https://nutchanon.net/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://nutchanon.net/sitemap.xml">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://nutchanon.net/">
-    <meta property="og:title" content="Nutchanon Kongkaew — Fullstack Developer Portfolio">
-    <meta property="og:description" content="พอร์ตโฟลิโอของ Nutchanon Kongkaew — Fullstack Developer ผู้เชี่ยวชาญ React, Next.js และเทคโนโลยีเว็บสมัยใหม่">
-    <meta property="og:image" content="https://nutchanon.net/og-image.png">
+    <meta property="og:url" content="https://nutchanon.net/hello">
+    <meta property="og:title" content="Hello, I’m Cho — Full Stack Developer">
+    <meta property="og:description" content="Hello, I’m Cho — Nutchanon Kongkaew, a Full Stack Developer. A greeting page from nutchanon.net.">
+    <meta property="og:image" content="https://nutchanon.net/og-hello.jpg">
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Nutchanon Kongkaew — Fullstack Developer Portfolio">
-    <meta property="og:site_name" content="Nutchanon Kongkaew Portfolio">
-    <meta property="og:locale" content="th_TH">
+    <meta property="og:image:alt" content="Hello, I’m Cho — Full Stack Developer">
+    <meta property="og:site_name" content="Nutchanon Kongkaew">
+    <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Nutchanon Kongkaew — Fullstack Developer Portfolio">
-    <meta name="twitter:description" content="พอร์ตโฟลิโอของ Nutchanon Kongkaew — Fullstack Developer ผู้เชี่ยวชาญ React, Next.js และเทคโนโลยีเว็บสมัยใหม่">
-    <meta name="twitter:image" content="https://nutchanon.net/og-image.png">
-    <meta name="twitter:image:alt" content="Nutchanon Kongkaew — Fullstack Developer Portfolio">
+    <meta name="twitter:title" content="Hello, I’m Cho — Full Stack Developer">
+    <meta name="twitter:description" content="Hello, I’m Cho — Nutchanon Kongkaew, a Full Stack Developer. A greeting page from nutchanon.net.">
+    <meta name="twitter:image" content="https://nutchanon.net/og-hello.jpg">
+    <meta name="twitter:image:alt" content="Hello, I’m Cho — Full Stack Developer">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://nutchanon.net/#person",
+          "name": "Nutchanon Kongkaew",
+          "alternateName": "Cho",
+          "jobTitle": "Full Stack Developer",
+          "url": "https://nutchanon.net/",
+          "image": "https://nutchanon.net/og-hello.jpg",
+          "mainEntityOfPage": { "@id": "https://nutchanon.net/#website" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://nutchanon.net/#website",
+          "url": "https://nutchanon.net/",
+          "name": "Nutchanon Kongkaew",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://nutchanon.net/#person" }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://nutchanon.net/hello#webpage",
+          "url": "https://nutchanon.net/hello",
+          "name": "Hello, I’m Cho — Full Stack Developer",
+          "description": "Hello, I’m Cho — Nutchanon Kongkaew, a Full Stack Developer. A greeting page from nutchanon.net.",
+          "inLanguage": "en",
+          "isPartOf": { "@id": "https://nutchanon.net/#website" },
+          "mainEntity": { "@id": "https://nutchanon.net/#person" },
+          "about": { "@id": "https://nutchanon.net/#person" },
+          "primaryImageOfPage": "https://nutchanon.net/og-hello.jpg"
+        }
+      ]
+    }
+    </script>
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -133,7 +176,7 @@
         .logo-container {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 8px;
             text-decoration: none;
             transition: all 0.3s ease;
         }
@@ -810,7 +853,7 @@
 
             .logo-container {
                 justify-content: center;
-                gap: 12px;
+                gap: 6px;
             }
 
             .nav-container {
@@ -966,7 +1009,7 @@
 
     <nav id="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo-container">
+            <a href="https://nutchanon.net/" class="logo-container" aria-label="Nutchanon Kongkaew — main website">
                 <svg class="logo-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nutchanon Kongkaew logo">
                     <!-- Orbiting nodes -->
                     <path fill="#ffff00" d="M230.311,397.291c0,4.795-1.135,9.334-3.136,13.348c-4.913,9.858-15.082,16.623-26.835,16.623 c-16.548,0-29.971-13.423-29.971-29.971c0-3.136,0.482-6.155,1.381-9.002c3.821-12.149,15.178-20.969,28.59-20.969 C216.889,367.32,230.311,380.743,230.311,397.291z"/>
@@ -997,8 +1040,8 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="glitch" data-text="Take care, kiddo.">Take care, kiddo.</h1>
-            <p class="subtitle">คิดถึงนะครับคุณน้อง</p>
+            <h1 class="glitch" data-text="Hello, I’m Cho">Hello, I’m Cho</h1>
+            <p class="subtitle">Full Stack Developer</p>
             <div class="hero-divider"></div>
         </div>
     </section>
