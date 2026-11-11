@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Hello, I’m Cho — Full Stack Developer | Nutchanon Kongkaew</title>
     <meta name="description" content="Hello, I’m Cho — Nutchanon Kongkaew, a Full Stack Developer. A greeting page from nutchanon.net.">
     <meta name="keywords" content="Cho, Nutchanon Kongkaew, Full Stack Developer, Fullstack Developer, Portfolio, React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Web Developer, Thailand">
@@ -215,7 +215,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.08em;
             text-transform: uppercase;
         }
 
@@ -294,7 +294,7 @@
             margin-top: 28px;
             opacity: 0.9;
             color: var(--secondary);
-            letter-spacing: 0.08em;
+            letter-spacing: 0.03em;
             text-shadow: 0 0 12px rgba(255, 0, 255, 0.5);
         }
 
@@ -804,7 +804,7 @@
             color: var(--text-secondary);
             font-size: 0.65rem;
             text-transform: uppercase;
-            letter-spacing: 0.3em;
+            letter-spacing: 0.15em;
 
         }
 		.footer-bottom a {
@@ -862,7 +862,7 @@
 
             .logo-text {
                 font-size: 1rem;
-                letter-spacing: 0.12em;
+                letter-spacing: 0.06em;
             }
 
             .logo-svg {
@@ -871,17 +871,33 @@
             }
 
             .glitch {
+                font-size: clamp(1.85rem, 8.5vw, 3.4rem);
                 letter-spacing: -0.02em;
             }
 
             .hero {
-                padding: 90px 20px 40px;
+                padding: 72px 20px 72px;
+            }
+
+            .hero-divider {
+                margin-top: 22px;
+            }
+
+            footer {
+                padding-bottom: calc(20px + env(safe-area-inset-bottom));
+            }
+
+            .footer-bottom {
+                border-top: none;
+                margin-top: 0;
+                padding-top: 12px;
             }
 
 
             .subtitle {
                 font-size: 1rem;
-                letter-spacing: 2px;
+                margin-top: 18px;
+                letter-spacing: 0.03em;
             }
             
             section {
